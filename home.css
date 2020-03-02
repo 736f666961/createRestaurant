@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*start section 1*/
+.section-1{
+	
+	width: 100%;
+	height: 802px;
+    background-image: url(images/layer-1.png);
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+nav{
+	display: flex;
+    width: 100%;
+}
+
+nav img{
+	width: 15%;
+	padding: 10px;
+}
+
+nav ul{
+	display: flex;
+justify-content: flex-end;
+	width: 100%;
+	float: right;
+	padding: 13px;
+}
+
+
+nav ul li{
+	color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+nav ul li:hover{
+	border: 4px solid red;
+}
+
+.tag{
+	font-family: 'Bebas Neue light', cursive;
+	color: white;
+	width: 20%;
+	display: flex;
+	margin: auto;
+	margin-top: 80px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.tag .title1{
+	width: 40%;
+	border:3px solid white;
+    font-size: 30px;
+    padding: 5px;
+}
+.tag .title1 h1{
+	font-size: 48px;
+}
+.tag .title2 h1{
+	font-size: 48px;
+}
+.tag .title2 hr{
+	width: 150px;
+}
+
+/*end section 1*/
+
+/*start section 2*/
+.section-2{
+	background-color: #42363A;
+	width: 100%;
+    height: 100vh;
+	padding-top: 50px;
+	
+}
+.section-2 .title-sec1{
+	font-family: 'Bebas Neue light', cursive;
+	color: white;
+	margin-left: 100px;
+}
+
+.foods{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+	
+}
+
+.food1{
+  width: 21%;
+	height: 80vh;
+	background-image: url(images/food1.png);
+}
+.food1 .min-food1{
+	background-color: #D24F4B;
+	font-family: 'Bebas Neue light', cursive;
+	width: 50%;
+	height: 25%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: 200px;
+
+}
+.foods .food1 h1{
+	margin-top: 50px;
+}
+.foods .food2 h1{
+	margin-top: 50px;
+}
+.foods .food3 h1{
+	margin-top: 50px;
+}
+.food2 .min-food2{
+	background-color: #84993B;
+	font-family: 'Bebas Neue light', cursive;
+	width: 50%;
+	height: 25%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: 200px;
+}
+.food3 .min-food3{
+	background-color: #AA6327;
+	font-family: 'Bebas Neue light', cursive;
+	width: 50%;
+	height: 25%;
+	color: white;
+	padding-left: 10px;
+	padding-top: 40px;
+	margin: auto;
+	margin-top: 200px;
+}
+
+ .food2{
+	width: 21%;
+	height: 80vh;
+	background-image: url(images/food2.png);
+}
+
+.food3{
+	width: 21%;
+	height: 80vh;
+	background-image: url(images/food3.png);
+}
+/*end section 2*/
+
+/*start section 3*/
+.section-3{
+	width: 100%;
+	height: 70%;
+    background-image: url(images/layer-3.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-size:100%;
+	flex-wrap: wrap;
+}
+.min-section3{
+	display: flex;	
+	padding: 30px;
+}
+
+.min-section3 .container1{
+	display: flex;
+	flex-direction: column;
+	color: white;
+
+	padding: 10px;
+}
+
+.min-section3 .container1 .content1 h1{
+	font-family: 'Bebas Neue light', cursive;
+	font-size: 70px;
+}
+
+.min-section3 .container1 .content1 p{
+	width: 60%;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+.min-section3 .container1 .content2{
+	margin-top: 100px;
+}
+
+.min-section3 .container1 .content2 h1{
+	font-family: 'Bebas Neue light', cursive;
+	font-size: 70px;
+}
+.min-section3 .container1 .content2 .profil-1{
+	display: flex;
+	margin-top: 10px;
+}
+
+.min-section3 .container1 .content2 .profil-1 p{
+	font-family: 'Lato', sans-serif;
+	width: 40%;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.min-section3 .container1 .content2 hr{
+	width: 50%;
+	margin-top: 20px;
+	background-color: white;
+
+}
+
+.min-section3 .container2{
+  display: flex;
+	flex-direction: column;
+	
+}
+.min-section3 .container2 #img2{
+	margin-top: 30px;
+}
+/*end section 3*/
+
+/*start section 4*/
+.section-4{
+	height: 50vh;
+	background-color: #42363A;
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ .min-section4{
+  display: flex;
+  flex-direction: column;
+  width:40%;
+
+}
+
+.min-section4 h1{
+	font-family: 'Bebas Neue light', cursive;
+	text-align: center;
+	font-size: 40px;
+}
+.min-section4 .button{
+	width: 177px;
+	height: 60px;
+	border: 3px solid white;
+	margin: auto;
+	margin-top: 20px;
+}
+.min-section4 h2{
+	font-family: 'Bebas Neue light', cursive;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 12px;
+}
+.min-section4 p{
+	font-family: 'Lato', sans-serif;
+	
+}
+.min-section4 #para{
+	font-size: 25px;
+	text-align: center;
+}
+
+/*end section 4*/
+
+/*start section 5*/
+
+.section-5 .container{
+	position: absolute;
+	width: 25%;
+	height: 40%;
+	background: #84993B;
+	margin-top: 40px;
+	margin-left: 30px;
+	
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	border-top: 161px solid transparent;
+	border-bottom:161px solid transparent;
+	border-left: 100px solid #84993B;
+	left: 100%;
+	top: 0px;
+}
+
+.container h1{
+	color: white;
+	font-family: 'Bebas Neue light', cursive;
+   font-size: 60px;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.container p{
+	width: 200px;
+	height: 70px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+   font-size: 17px;
+   margin-left: 50px;
+
+}
+
+.container h2{
+	color: white;
+	font-family: 'Bebas Neue light', cursive;
+	font-size: 40px;
+	margin-left: 50px;
+
+}
+
+/*end section 5*/
+
+/*responsive*/
+@media(max-width: 800px){
+	.section-1{
+		background-size: 100%;
+	}
+	nav img{
+	width: 20%;
+	padding: 10px;
+	font-size: 20px;
+   }
+	.section-2{
+		margin-top: -336px;
+	}
+	.tag .title1 h1{
+	font-size: 28px;
+   }
+    .tag .title2 hr{
+    	width: 65px;
+    }
+   .tag .title2 h1{
+	font-size: 28px;
+   }
+
+   .foods .food1 .min-food1 h1{
+	margin-top: 0;
+	font-size: 25px;
+}
+   .foods .food2 .min-food2 h1{
+	margin-top: 0;
+	font-size: 25px;
+}
+   .foods .food3 .min-food3 h1{
+	   font-size: 25px;
+	margin-top: 0;
+}
+.section-3 .min-section3 .container1{
+	flex-basis: 50%;
+	order: 0;
+}
+.section-3{
+	background-size: 100%;
+}
+.min-section3{
+	padding: 10px;
+}
+.section-3 .min-section3 .container2{
+	flex-basis: 50%;
+	order: 0;
+}
+.section-3 .min-section3 .container2 img{
+	width: 345px;
+	height: 199px;
+}
+.section-3 .min-section3 .container2 #img2{
+	margin-top: 10px;
+}
+
+.min-section3 .container1 .content1{
+	margin-bottom: -10px;
+	padding: 0;
+}
+.min-section3 .container1 .content2{
+	margin-top: 21px;
+	padding-left: 0;
+	float: left;
+}
+.min-section3 .container1 .content2 h1{
+ font-size: 40px;
+ 
+}
+.min-section3 .container1 .content2 hr{
+	margin-top: 8px;
+}
+.min-section3 .container1 .content2 .profil-1 img{
+  width: 40px;
+  height: 40px;
+}
+
+.min-section3 .container1 .content2 .profil-1 p{
+	font-family: 'Lato', sans-serif;
+	width: 50%;
+	font-size: 10px;
+	color: white;
+	margin-left: 7px;
+}
+.min-section3 .container1 .content1 h1{
+	font-size: 40px;
+}
+.min-section3 .container1 .content1 p{
+	font-size: 10px;
+	margin-top: -17px;
+}
+
+.section-4{
+	margin-top: -11px;
+	height: 70vh;
+}
+.min-section4{
+	width: 80%;
+}
+
+
+.container h1{
+	
+   font-size: 45px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.container p{
+	width: 200px;
+	height: 70px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+   font-size: 17px;
+   margin-left: 30px;
+
+}
+
+.container h2{
+	color: white;
+	font-family: 'Bebas Neue light', cursive;
+	font-size: 25px;
+	margin-left: 30px;
+
+}
+
+}
